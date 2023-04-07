@@ -13,7 +13,7 @@ Grandes telas: acima de 1920px
 @media screen and (min-width: 768px) and (max-width: 992px){
 
     body{
-        background-image: linear-gradient(to bottom, #AABDBF, #F2E6D0 );
+        background-image: linear-gradient(to bottom, #91AFB7, #F2E6D0 );
     }
 
     section#login {
@@ -24,6 +24,7 @@ Grandes telas: acima de 1920px
         float: left;
         width: 30%;
         height: 100%;
+        background-position: center bottom;
     }
 
     section#login > div#form {
@@ -34,7 +35,7 @@ Grandes telas: acima de 1920px
 
 @media screen and (min-width: 992px) {
     body{
-        background-image: linear-gradient(to bottom, #AABDBF, #F2E6D0 );
+        background-image: linear-gradient(to bottom, #91AFB7, #F2E6D0 );
     }
 
     section#login {

@@ -2,7 +2,7 @@
 
 /*
     PALETA DE CORES
-    AZUL: #AABDBF
+    AZUL: #AABDBF ou #91AFB7
     BEGE: #D9C8A9 ou #F2E6D0
 
 */ 
@@ -15,7 +15,7 @@
 }
 
 body, html {
-    background-color: #AABDBF;
+    background-color: #91AFB7;
     height: 100vh;
     width: 100vw;
 }
