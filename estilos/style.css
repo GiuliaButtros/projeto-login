@@ -3,7 +3,7 @@
 /*
     PALETA DE CORES
     AZUL: #AABDBF
-    BEGE: #D9C8A9
+    BEGE: #D9C8A9 ou #F2E6D0
 
 */ 
 
@@ -37,6 +37,8 @@ section#login {
     left: 50%;
     transform: translate(-50%, -50%);
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#img {
