@@ -83,6 +83,7 @@ div.campo > span {
     color:  #455e64;
     /*background-color: rgb(228, 135, 135);*/
     font-size: 2.5em;
+
     width: 40px;
     padding: 5px;
 }
@@ -95,7 +96,7 @@ div.campo > input {
     border: 0px;
     border-radius: 8px;
     padding: 4px;
-    transform: translateY(-14px); /* Sempre que tiver animação, colocar o transform por último*/
+    transform: translateY(-20px); /* Sempre que tiver animação, colocar o transform por último*/
 }
 
 div.campo > input:focus-within {
