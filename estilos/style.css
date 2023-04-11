@@ -43,7 +43,7 @@ section#login {
 
 section#login > div#img {
     display: block;
-    background: #AABDBF url(../imagens/pexels-bruno-thethe-2747595\ \(1\).jpg) no-repeat;
+    background: #AABDBF url(../imagens/pexels-bruno-thethe-2747595.jpg) no-repeat;
     height: 200px;
     background-size: cover;
     background-position: left center;
@@ -61,4 +61,57 @@ div#form > h1 {
 
 div#form > p {
     font-size: 0.8em;
+}
+
+form > div.campo {
+    background-color: #AABDBF;
+    width: 100%;
+    display: block;
+    height: 40px;
+    border-radius: 5px;
+    margin: 5px 0px;
+}
+
+div.campo > label {
+    display: none;
+}
+
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    font-weight: bolder;
+    width: 100%;
+    height: 40px;
+    background-color: #D9C8A9;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover {
+    background-color: #F2E6D0;
+    border: 1px solid #D9C8A9
+}
+
+form > a.botao {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+    padding-top: 7px;
+    background-color: white;
+    color: #ad976e;
+    border-radius: 5px;
+    border: 1px solid #D9C8A9;
+    text-decoration: none;
+}
+
+form > a.botao:hover {
+    background-color: #F2E6D0;
+}
+
+form > a.botao > i {
+    font-size: 1.4em;
 }
