@@ -92,12 +92,12 @@ div.campo > span {
 div.campo > input {
     background-color: #d9f2f5;
     font-size: 1em;
-    width: calc(100% - 45px);
+    width: calc(100% - 44px);
     height: 100%;    
     border: 0px;
     border-radius: 8px;
     padding: 4px;
-    transform: translateY(-22px); /* Sempre que tiver animação, colocar o transform por último*/
+    transform: translateY(-12.1px); /* Sempre que tiver animação, colocar o transform por último*/
 }
 
 div.campo > input:focus-within {
